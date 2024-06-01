@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Gelert Olah</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">My portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>If something's important enough, you should try. Even if the probable outcome is failure.
+                    </q>
+                    <br> - Elon Musk
+                    <br>
+                    <br><center>My name is Gelert Olah! Welcome to my portfolio website.
+                    <br>
+                    <br> Thank you for stopping by and enjoy!</center>
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="img/zlatan.png" alt="First image" width="500" height="250">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I'm a driven individual who gets satisfaction from a job well done. Whether it's crushing deadlines or brainstorming solutions with colleagues, I bring a positive attitude and a strong work ethic. But all work and no play isn't my style! I love to unwind by socializing, catching up with friends or watching a football game.
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="Github">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>My Github</h1>
+                <p>
+                    You can find me on Github here:
+                    <br>
+                    <p class="center"><a href="https://github.com/GelertOlah" target="_blank">Gelert Olah on Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="img/zlatan2.png" alt="Github" width="500" height="250"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="img/barca.png" alt="Find me picture" width="500" height="250">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="example: gelert@olah.hu">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Gelert Olah</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
